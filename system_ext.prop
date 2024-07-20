@@ -34,7 +34,7 @@ persist.vendor.ims.disableIMSLogs=1
 persist.vendor.mwqem.enable=1
 
 # Recovery
-persist.vendor.recovery_update=false
+persist.vendor.recovery_update=true
 
 # Telephony
 ro.com.android.mobiledata=false
