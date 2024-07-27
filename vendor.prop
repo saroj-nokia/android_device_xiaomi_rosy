@@ -142,7 +142,7 @@ ro.max.fling_velocity=20000
 ro.vendor.qti.cgroup_follow.enable=true 
 persist.vendor.qti.inputopts.enable=true 
 persist.vendor.qti.inputopts.movetouchslop=0.6 
-ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=1
 
 # TCP
 net.tcp.2g_init_rwnd=10
