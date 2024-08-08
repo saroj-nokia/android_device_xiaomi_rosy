@@ -205,3 +205,4 @@ ro.vendor.qti.va_aosp.support=1
 # APEx
 ro.apex.updatable=true
 
+ro.opa.eligible_device=true
