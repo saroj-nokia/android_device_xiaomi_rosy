@@ -205,4 +205,8 @@ ro.vendor.qti.va_aosp.support=1
 # APEx
 ro.apex.updatable=true
 
+# Google assistant
 ro.opa.eligible_device=true
+
+# Advertise system_as_root
+ro.build.system_root_image=true
