@@ -38,7 +38,7 @@ TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
 # Gapps
-include vendor/gapps/config.mk
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
 
 # Permissions
 PRODUCT_COPY_FILES += \
