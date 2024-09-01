@@ -38,7 +38,7 @@ TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
 # Gapps
-include vendor/gapps/arm64/arm64-vendor.mk
+include vendor/gapps/config.mk
 
 # Permissions
 PRODUCT_COPY_FILES += \
