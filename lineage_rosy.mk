@@ -31,6 +31,18 @@ $(call inherit-product, device/xiaomi/rosy/device.mk)
 # Gapps
 $(call inherit-product-if-exists, vendor/gapps/config.mk)
 
+# Remove offending entries
+# PRODUCT_PACKAGES += AmbientStreaming
+# PRODUCT_PACKAGES += MyVerizonServices
+# PRODUCT_PACKAGES += PixelDependencies
+# PRODUCT_PACKAGES += RilConfigService
+# PRODUCT_PACKAGES += SCONE
+# PRODUCT_PACKAGES += Tycho
+# PRODUCT_PACKAGES += VZWAPNLib
+# PRODUCT_PACKAGES += VzwOmaTrigger
+# PRODUCT_PACKAGES += com.android.imsserviceentitlement
+# PRODUCT_PACKAGES += obdm_permissions
+
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_rosy
 PRODUCT_DEVICE := rosy
