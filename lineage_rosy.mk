@@ -32,7 +32,7 @@ $(call inherit-product, device/xiaomi/rosy/device.mk)
 $(call inherit-product-if-exists, vendor/gapps/config.mk)
 
 # Gapps config
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_QUICK_TAP := false
