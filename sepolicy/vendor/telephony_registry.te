@@ -1,4 +1,0 @@
-type telephony_registry, system_server_service;
-allow telephony_registry system_app:service_manager find;
-allow telephony_registry system_app:binder call;
-allow telephony_registry system_app:service_manager add;
