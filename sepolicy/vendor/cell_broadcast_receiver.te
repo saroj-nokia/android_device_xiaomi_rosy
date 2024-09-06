@@ -1,3 +1,6 @@
+# Include the attributes file
+include attributes
+
 type cell_broadcast_receiver, app;
 attribute app;
 
