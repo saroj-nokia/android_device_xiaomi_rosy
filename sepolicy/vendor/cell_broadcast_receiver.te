@@ -1,0 +1,10 @@
+type cell_broadcast_receiver, app;
+allow cell_broadcast_receiver telephony_registry:service_manager find;
+allow cell_broadcast_receiver telephony_registry:binder call;
+allow cell_broadcast_receiver self:capability { net_admin net_raw };
+allow cell_broadcast_receiver system_app:service_manager find;
+allow cell_broadcast_receiver system_app:binder call;
+allow cell_broadcast_receiver location_service:service_manager find;
+allow cell_broadcast_receiver location_service:binder call;
+allow cell_broadcast_receiver radio_service:service_manager find;
+allow cell_broadcast_receiver radio_service:binder call;
