@@ -28,6 +28,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
+# Include our private certificate
+-include vendor/lineage-priv/keys/keys.mk
+
 # Gapps
 $(call inherit-product-if-exists, vendor/gapps/config.mk)
 
