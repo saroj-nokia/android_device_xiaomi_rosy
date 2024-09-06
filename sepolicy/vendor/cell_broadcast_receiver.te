@@ -1,8 +1,8 @@
 # Include the attributes file
-include attributes
+include system/sepolicy/public/attributes
 
 # Declare the type with the app attribute
-type cell_broadcast_receiver, app;
+type cell_broadcast_receiver, domain, app;
 
 allow cell_broadcast_receiver telephony_registry:service_manager find;
 allow cell_broadcast_receiver telephony_registry:binder call;
