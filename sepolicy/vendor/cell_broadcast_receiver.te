@@ -1,4 +1,6 @@
 type cell_broadcast_receiver, app;
+attribute app;
+
 allow cell_broadcast_receiver telephony_registry:service_manager find;
 allow cell_broadcast_receiver telephony_registry:binder call;
 allow cell_broadcast_receiver self:capability { net_admin net_raw };
