@@ -202,6 +202,10 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
+# Packages
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl:64 \
