@@ -188,6 +188,7 @@ VENDOR_SECURITY_PATCH := 2024-04-05
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+PRODUCT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Treble
