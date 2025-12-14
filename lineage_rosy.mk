@@ -31,6 +31,9 @@ $(call inherit-product, device/xiaomi/rosy/device.mk)
 # Include our private certificate
 -include vendor/lineage-priv/keys/keys.mk
 
+# Gapps
+-include vendor/gapps/arm64/arm64-vendor.mk
+
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_rosy
 PRODUCT_DEVICE := rosy
